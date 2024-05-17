@@ -58,6 +58,8 @@ Fractal Brownian Motion is the process of creating values that tend to similar t
 
 While certainly better than earlier attempts I felt dissatisfied with the current lighting and and lack of subsurface scattering. My focus will be to implement these features. The overall appearance of the ocean is largely based on the amount of waves that are being added in combination with normal maps
 
+### Earlier work
+
 Early versions of Gerstner wave simulations are shown below: 
 
 ![image](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/c98260e2-4743-419d-a659-6d4b05c5877f)
@@ -70,7 +72,7 @@ So far I have managed to generate a ocean tile and animate it according to the s
 
 I realized that i probably overcomplicated and I will likely do the FFT variation as a future project. I did alot more research and found so many variations of the ocean simulation Gerstner waves, eulerwaves, and of course sum of sines princinple, which was quite overwhelming to be honest. Thus i decided to start simple and build the project up in complexity. 
 
-Below are some fun results: 
+Below are some fun results using sinewaves with K exponent: 
 ![Sumofsinewave](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/a986816a-5ee6-4830-8f14-d0ba4b43e9ae)
 
 An example of Gerstner wave going very wrong! 
