@@ -4,7 +4,7 @@ The repository for my DH2323 real-time ocean simulation using Unity and ShaderLa
 
 ## Week 20 
 
-During the final week most of my focus was spent writing and reflecting on the project as a whole while also adjusting the appearance of the shader. It was turbulent and little bit chaotic but nonetheless it was still fun and I learned a great deal. To view more image and video examples of the shader I recommend checking this Google Drive link: https://drive.google.com/drive/folders/1ZzEJeMdkp2FbshOS-DLsnykrvT7sTRme?usp=sharing. 
+During the final week most of my focus was spent writing and reflecting on the project as a whole while also adjusting the appearance of the shader. It was turbulent and little bit chaotic but nonetheless it was still fun and I learned a great deal. To view more image and video examples of the shader I recommend checking this Google Drive link: https://drive.google.com/drive/folders/1ZzEJeMdkp2FbshOS-DLsnykrvT7sTRme?usp=sharing. Below is one of the final images: 
 
 ![image](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/7b9e140a-d471-4ab1-8ff0-055a5cc8e0c5)
 
@@ -13,7 +13,7 @@ During the final week most of my focus was spent writing and reflecting on the p
 
 ## Week 19 Rendering and fine tweaking
 
-Start of this week the focus was largely spent on adding some more complex rendering to my surface shader such as reflection, refraction and Fresnel. Wheter or not I plan to use tessendorfs lighting model or use a more common model is yet to be decided. Alot of experimentation was done but I settled for using skybox reflections in combination with a simple Fresnel approximation. Overall the appearance become quite stylized but I was satisified with the results. I also tried to implement some subsurface scattering but the change was barely noticable for this type of mesh. Below are some final images with varying parameters and angles: 
+Start of this week the focus was largely spent on adding some more complex rendering to my surface shader such as reflection, refraction and Fresnel. Wheter or not I plan to use tessendorfs lighting model or use a more common model is yet to be decided. Alot of experimentation was done but I settled for using skybox reflections in combination with a simple Fresnel approximation. Overall the appearance become quite stylized but I was satisified with the results. I also tried to implement some subsurface scattering but the change was barely noticable for this type of mesh. Below are some images with varying parameters and angles: 
 
 ![baseshader](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/a866e1c5-1462-42e2-9287-94dc035b5b06)
 
@@ -28,15 +28,35 @@ Start of this week the focus was largely spent on adding some more complex rende
 ## Week 18 Gerstner waves
 
 During this week I focused on implementing the gerstner wave algorithm using unitys standard surface shader. The shader contains two major parts, a vertex and a surface shader component. The vertex shader is responsible for the displacement of the mesh (I.e the animation) while the surface shader handles all coloring of the surface. 
-The motion of the mesh is based on both tessendorfs dissatisfied description of Gerstner waves which uses the sum of sines method. This was done in the vertex shader.** I will add a more in-depth descrption of later 
-of both Gerstner waves, sum of sines and fractual brownian motion. 
+The motion of the mesh is based on both tessendorfs dissatisfied description of Gerstner waves which uses the sum of sines method. This was done in the vertex shader.** I will add a more in-depth descrption of later of both Gerstner waves, sum of sines and fractual brownian motion. 
+
+### Gerstner waves: 
+
+Gerstner waves are a common way to simulate ocean motion where the discplacement occurs in a circular motion: 
+
+![image](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/e697292a-19d2-419c-ba29-ccd0baacaac6)
+
+Figure 1.2 Motion of Gerstner wave from Wikipedia
+
+in short instead of purely displacing vertices up and down the points move horizontally as well and a point P can be described as: 
+
+P (x,y,t) = ( x+ W1(),y+ W2(), W3(),)
+
+where 
+W1() =  QiAiDi.x cos(wiDi(x,y) +ti)
+W2() =  QiAiDi.y cos(wiDi(x,y) +ti)
+W3() =  Aisin(wiDi(x,y) +ti)
+
+### Fractal Brownian Motion: 
+
+Fractal Brownian Motion is the process of creating values that tend to similar to previous values but still appear random to us humans. It is essential created through multiple layers of perlin noise and is a common application within procedural generation. In short it is used to create random values without being completely random.
+
+
 **
 Current version
 ![image](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/e76ef8c2-6af6-4208-984b-8343d90bef11)
 
 While certainly better than earlier attempts I felt dissatisfied with the current lighting and and lack of subsurface scattering. My focus will be to implement these features. The overall appearance of the ocean is largely based on the amount of waves that are being added in combination with the amount of fractual browninan motion thats being added and will final tweaking will be done later. 
-
-
 
 Early versions of Gerstner wave simulations are shown below: 
 
