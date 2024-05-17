@@ -4,9 +4,12 @@ The repository for my DH2323 real-time ocean simulation using Unity and ShaderLa
 
 ## Week 20 
 
-During the final week most of my focus was spent writing and reflecting on the project as a whole while also adjusting the appearance of the shader. It was turbulent and little bit chaotic but nonetheless it was still fun and I learned a great deal. To view more image and video examples of the shader I recommend checking this Google Drive link: https://drive.google.com/drive/folders/1ZzEJeMdkp2FbshOS-DLsnykrvT7sTRme?usp=sharing
+During the final week most of my focus was spent writing and reflecting on the project as a whole while also adjusting the appearance of the shader. It was turbulent and little bit chaotic but nonetheless it was still fun and I learned a great deal. To view more image and video examples of the shader I recommend checking this Google Drive link: https://drive.google.com/drive/folders/1ZzEJeMdkp2FbshOS-DLsnykrvT7sTRme?usp=sharing. 
 
-The Unity project
+![image](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/7b9e140a-d471-4ab1-8ff0-055a5cc8e0c5)
+
+
+
 
 ## Week 19 Rendering and fine tweaking
 
