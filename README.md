@@ -1,5 +1,5 @@
 # DH2323_Ocean_simulation
-The repository is my project in the DH2323 Computer graphics and interaction where I built a real-time ocean simulation using Unity and ShaderLab. Use of this repository is allowed to be shown and used for future students as long as the repository is referenced clearly. Code and my process is documented here while additional images are via a google link. Note that the distribution of languages are misleading since much of the code is boilerplate that comes from a unity project. 
+The repository is my project in the DH2323 Computer graphics and interaction where I built a real-time ocean simulation using Unity and ShaderLab. Use of this repository is allowed to be shown and used for future students as long as the repository is referenced clearly. Code and my process is documented here while additional images are via a google link. Note that the distribution of languages are misleading since much of the code is built-in stuff that comes when you start a Unity project. 
 
 
 ## Week 20 
