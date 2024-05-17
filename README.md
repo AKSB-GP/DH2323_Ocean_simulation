@@ -28,7 +28,8 @@ Start of this week the focus was largely spent on adding some more complex rende
 ## Week 18 Gerstner waves
 
 During this week I focused on implementing the gerstner wave algorithm using unitys standard surface shader. The shader contains two major parts, a vertex and a surface shader component. The vertex shader is responsible for the displacement of the mesh (I.e the animation) while the surface shader handles all coloring of the surface. 
-The motion of the mesh is based on both tessendorfs dissatisfied description of Gerstner waves which uses the sum of sines method. This was done in the vertex shader.** I will add a more in-depth descrption of later of both Gerstner waves, sum of sines and fractual brownian motion. 
+The motion of the mesh is based on both tessendorfs dissatisfied description of Gerstner waves which uses the sum of sines method. This was done in the vertex shader.** I plan to make use of both Gerstner Waves and Fractal Brownian motion
+
 
 ### Gerstner waves: 
 
@@ -49,11 +50,11 @@ W3() =  Aisin(wiDi(x,y) +ti)
 
 ### Fractal Brownian Motion: 
 
-Fractal Brownian Motion is the process of creating values that tend to similar to previous values but still appear random to us humans. It is essential created through multiple layers of perlin noise and is a common application within procedural generation. In short it is used to create random values without being completely random.
+Fractal Brownian Motion is the process of creating values that tend to similar to previous values but still appear random to us humans. It is essential created through multiple layers of perlin noise and is a common application within procedural generation. In short it is used to create random values without being completely random. I higly recommend to read this chapter from The Book of Shaders: https://thebookofshaders.com/13/ as it explains the concept quite well. 
 
 
-**
-Current version
+
+Current version of my ocean shader. 
 ![image](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/e76ef8c2-6af6-4208-984b-8343d90bef11)
 
 While certainly better than earlier attempts I felt dissatisfied with the current lighting and and lack of subsurface scattering. My focus will be to implement these features. The overall appearance of the ocean is largely based on the amount of waves that are being added in combination with the amount of fractual browninan motion thats being added and will final tweaking will be done later. 
@@ -68,7 +69,6 @@ Early versions of Gerstner wave simulations are shown below:
 Week 18 saw alot of experimentation with C++ and unity, however due to having to many issues with this I decided to change my approach again. This time making use of Unity built in shader language in combination. 
 So far I have managed to generate a ocean tile and animate it according to the sum of sines principle which was outlined by GPU gems: https://developer.nvidia.com/gpugems/gpugems/part-i-natural-effects/chapter-1-effective-water-simulation-physical-models. The code to generate the ocean was done via C#, however the movement and the shading was done via unity shaders since it is more performance friendly. Thus the focus will be more the gerstner wave animations using the sum of sines method rather than implementing an FFT algorithm. 
 
-
 I realized that i probably overcomplicated and I will likely do the FFT variation as a future project. I did alot more research and found so many variations of the ocean simulation Gerstner waves, eulerwaves, and of course sum of sines princinple, which was quite overwhelming to be honest. Thus i decided to start simple and build the project up in complexity. 
 
 Below are some fun results: 
@@ -81,9 +81,7 @@ I avoided at first gerstner waves as they had an easier tendence to clip through
 
 ![image](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/b8850081-7128-4056-a861-7206ef68f3d6)
 
-
-
-From GPU gems chapter 1.
+Image From GPU gems chapter 1.
 
 ## Week 16-17 
 
