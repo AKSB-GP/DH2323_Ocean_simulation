@@ -76,10 +76,10 @@ I realized that i probably overcomplicated and I will likely do the FFT variatio
 Below are some fun results: 
 ![Sumofsinewave](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/a986816a-5ee6-4830-8f14-d0ba4b43e9ae)
 
-
+An example of Gerstner wave going very wrong! 
 ![Gerstner wave_fun](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/7e91df3c-7e34-4dba-8e6c-05d6ce9e30a9)
 
-I avoided at first gerstner waves as they had an easier tendence to clip through each other. Instead I simply raised to the sinusoid term to an exponent K as a start.
+I avoided at first gerstner waves as they had an easier tendence to clip through each other. Instead I simply raised to the sinusoid term to an exponent K as a start. 
 
 ![image](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/6e187b51-a329-4a90-ae71-cfbf06162adf)
 
