@@ -1,15 +1,12 @@
 # DH2323_Ocean_simulation
-The repository for my DH2323 real-time ocean simulation using Unity and ShaderLab. Use of this repository is allowed to be shown and used for future students as long as the repository is referenced clearly. 
+The repository is my project in the DH2323 Computer graphics and interaction where I built a real-time ocean simulation using Unity and ShaderLab. Use of this repository is allowed to be shown and used for future students as long as the repository is referenced clearly. Code and my process is documented here while additional images are via a google link. 
 
 
 ## Week 20 
 
-During the final week most of my focus was spent writing and reflecting on the project as a whole while also adjusting the appearance of the shader. It was turbulent and little bit chaotic but nonetheless it was still fun and I learned a great amount of things. To view more image and video examples of the shader I recommend checking this Google Drive link: https://drive.google.com/drive/folders/1ZzEJeMdkp2FbshOS-DLsnykrvT7sTRme?usp=sharing. Below is one of the final images: 
+During the final week most of my focus was spent writing and reflecting on the project as a whole while also adjusting the appearance of the shader. It was turbulent and little bit chaotic but nonetheless it was still fun and I learned a great amount of things. To view more image and video examples of the shader I recommend checking this Google Drive link: https://drive.google.com/drive/folders/1ZzEJeMdkp2FbshOS-DLsnykrvT7sTRme?usp=sharing. Below is one of the final images which became better than I expected: 
 
 ![image](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/7b9e140a-d471-4ab1-8ff0-055a5cc8e0c5)
-
-
-
 
 ## Week 19 Rendering and fine tweaking
 
@@ -50,13 +47,13 @@ W3() =  Aisin(wiDi(x,y) +ti)
 
 ### Fractal Brownian Motion: 
 
-Fractal Brownian Motion is the process of creating values that tend to similar to previous values but still appear random to us humans. It is essential created through multiple layers of perlin noise and is a common application within procedural generation. In short it is used to create random values without being completely random. I higly recommend to read this chapter from The Book of Shaders: https://thebookofshaders.com/13/ as it explains the concept quite well. 
+Fractal Brownian Motion is the process of creating values that tend to similar to previous values but still appear random to us humans. It is essential created through multiple layers of perlin noise and is a common application within procedural generation. In short it is used to create random values without being completely random. I higly recommend to read this chapter from The Book of Shaders: https://thebookofshaders.com/13/ as it explains the concept quite well. Below is the Current version of my ocean shader. 
 
 
 
 
 
-Current version of my ocean shader. 
+
 ![image](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/e76ef8c2-6af6-4208-984b-8343d90bef11)
 
 While certainly better than earlier attempts I felt dissatisfied with the current lighting and and lack of subsurface scattering. My focus will be to implement these features. The overall appearance of the ocean is largely based on the amount of waves that are being added in combination with normal maps
