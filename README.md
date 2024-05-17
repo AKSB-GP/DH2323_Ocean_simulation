@@ -81,7 +81,8 @@ Below are some fun results:
 
 I avoided at first gerstner waves as they had an easier tendence to clip through each other. Instead I simply raised to the sinusoid term to an exponent K as a start.
 
-![image](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/b8850081-7128-4056-a861-7206ef68f3d6)
+![image](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/6e187b51-a329-4a90-ae71-cfbf06162adf)
+
 
 Image From GPU gems chapter 1.
 
