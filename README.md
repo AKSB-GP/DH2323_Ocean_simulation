@@ -4,7 +4,20 @@ This repository is my project in the DH2323 Computer graphics and interaction wh
 
 ## Week 20 
 
-During the final week most of my focus was spent writing and reflecting on the project as a whole while also adjusting the appearance of the shader. It was turbulent and little bit chaotic but nonetheless it was still fun and I learned a great amount of things. To view more image and video examples of the shader I recommend checking this Google Drive link: https://drive.google.com/drive/folders/1ZzEJeMdkp2FbshOS-DLsnykrvT7sTRme?usp=sharing. Below is one of the final images which became better than I expected: 
+During the final week most of my focus was spent writing and reflecting on the project as a whole while also adjusting the appearance of the shader. It was turbulent and little bit chaotic but nonetheless it was still fun and I learned a great amount of things. To view more image and video examples of the shader I recommend checking the following links: 
+
+### Gifs:
+https://drive.google.com/drive/folders/1-MqZckLOp_0Jk_ZN-JXunHnT5De_w2CV?usp=sharing 
+
+### Images:
+https://drive.google.com/drive/folders/1cqdHrjCrZFVvTwD3yQzKgNpxNpjPpkjS?usp=sharing
+
+### Unity project:
+https://drive.google.com/drive/folders/1jaaIN6X7gMlL1FLSqsW_i7PnXowXscPC?usp=sharing 
+
+
+
+Below is one of the final images which became better than I expected: 
 
 ![image](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/7b9e140a-d471-4ab1-8ff0-055a5cc8e0c5)
 
