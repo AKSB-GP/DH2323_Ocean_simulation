@@ -1,5 +1,5 @@
 # DH2323_Ocean_simulation
-The repository is my project in the DH2323 Computer graphics and interaction where I built a real-time ocean simulation using Unity and ShaderLab. Use of this repository is allowed to be shown and used for future students as long as the repository is referenced clearly. Code and my process is documented here while additional images are via a google link. Note that the distribution of languages are misleading since much of the code is built-in stuff that comes when you start a Unity project. 
+This repository is my project in the DH2323 Computer graphics and interaction where I built a real-time ocean simulation using Unity and ShaderLab. Use of this repository is allowed to be shown and used for future students as long as the repository is referenced clearly. Code and my process is documented here while additional images are via a google link. Note that the distribution of languages are misleading since much of the code is built-in stuff that comes when you start a Unity project. 
 
 
 ## Week 20 
@@ -10,7 +10,7 @@ During the final week most of my focus was spent writing and reflecting on the p
 
 ## Week 19 Rendering and fine tweaking
 
-Start of this week the focus was largely spent on adding some more complex rendering to my surface shader such as reflection, refraction and Fresnel. Wheter or not I plan to use tessendorfs lighting model or use a more common model is yet to be decided. Alot of experimentation was done but I settled for using skybox reflections in combination with a simple Fresnel approximation. Overall the appearance become quite stylized but I was satisified with the results. I also tried to implement some subsurface scattering but the change was barely noticable for this type of mesh. Below are some images with varying parameters and angles: 
+At the start of this week, the focus was largely spent on adding some more complex rendering to my surface shader such as reflection, refraction and Fresnel. Wheter or not I plan to use tessendorfs lighting model or use a more common model is yet to be decided. In the end, alot of experimentation was done but I settled for using skybox reflections in combination with a simple Fresnel approximation. Overall the appearance become quite stylized but I was satisified with the results. I also tried to implement some subsurface scattering but the change was barely noticable for this type of mesh. Below are some images with varying parameters and angles: 
 
 ![baseshader](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/a866e1c5-1462-42e2-9287-94dc035b5b06)
 
