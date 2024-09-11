@@ -13,14 +13,6 @@ Below is one of the final images which became better than I expected:
 
 ![image](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/7b9e140a-d471-4ab1-8ff0-055a5cc8e0c5)
 
-![baseshader](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/a866e1c5-1462-42e2-9287-94dc035b5b06)
-
-![baseshader2](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/bd2c2eb1-010c-4418-8cdd-84a445341246)
-
-
-![Maxsmoothness](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/60d1fbcc-661b-46e5-8893-95673fcf9579)
-
-![withoutsmoothness](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/35da26fa-2a11-4e02-be61-1abc62011676)
 
 
 ### Gerstner waves: 
