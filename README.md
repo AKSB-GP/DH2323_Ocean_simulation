@@ -15,27 +15,6 @@ Below is one of the final images which became better than I expected:
 
 
 
-### Gerstner waves: 
-
-Gerstner waves are a common way to simulate ocean motion where the discplacement occurs in a circular motion: 
-
-![image](https://github.com/AKSB-GP/DH2323_Ocean_simulation/assets/35559511/e697292a-19d2-419c-ba29-ccd0baacaac6)
-
-Figure 1.2 Motion of Gerstner wave from Wikipedia
-
-in short instead of purely displacing vertices up and down the points move horizontally as well and a point P can be described as: 
-
-P (x,y,t) = ( x+ W1(),y+ W2(), W3(),)
-
-where 
-W1() =  QiAiDi.x cos(wiDi(x,y) +ti)
-W2() =  QiAiDi.y cos(wiDi(x,y) +ti)
-W3() =  Aisin(wiDi(x,y) +ti)
-
-### Fractal Brownian Motion: 
-
-Fractal Brownian Motion is the process of creating values that tend to similar to previous values but still appear random to us. It is essential created through multiple layers of Perlin noise and is a common application within procedural generation. In short it is used to create random values without being completely random. I higly recommend to read this chapter from The Book of Shaders: https://thebookofshaders.com/13/ as it explains the concept quite well.
-
 
 
 ## Theoretical 
@@ -88,6 +67,11 @@ Finally to add rendering details I will be adding basic Fresnel reflections.  Fr
 ReflectionCoefficient = Max(0,min(1,bias+scale 1+IN)power)
 
 Where the bias, scale and power are parameters chosen by the artist. The vectors I and N are the incident vector (viewdirection vector) and normal vector respectively [6]. A simplified version of this approximation will be used instead as the many parameters can produce poor results if care is not taken. 
+
+### Fractal Brownian Motion: 
+
+Fractal Brownian Motion is the process of creating values that tend to similar to previous values but still appear random to us. It is essential created through multiple layers of Perlin noise and is a common application within procedural generation. In short it is used to create random values without being completely random. I higly recommend to read this chapter from The Book of Shaders: https://thebookofshaders.com/13/ as it explains the concept quite well.
+
 
 # References
 
